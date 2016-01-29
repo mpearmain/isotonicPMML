@@ -2,7 +2,8 @@
 A simple implementation to convert python sklearn IsotonicRegression to PMML.
 
 ## Motivation
-There are a few great libraries on github for converting sklearn model to pmml code (https://github.com/jpmml/sklearn2pmml)
+There are a few great libraries on github for converting sklearn models to pmml code (https://github.com/jpmml/sklearn2pmml)
+
 This repo is missing the ability to convert isotonic regressions into pmml.  
 
 This repo aims to solve that problem.
