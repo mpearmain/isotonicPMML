@@ -60,3 +60,6 @@ target/
 
 # PMML file
 *.pmml
+
+# Ignore pycharm
+.idea/
