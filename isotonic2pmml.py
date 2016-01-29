@@ -3,8 +3,6 @@ from xml.etree import ElementTree as ET
 from io import BytesIO
 from xml.dom import minidom
 
-__author__ = 'anton'
-
 
 def topmml(isotonic, datafield_name, targetfield_name, outputfile):
     # Header
