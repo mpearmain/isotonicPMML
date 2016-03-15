@@ -11,3 +11,6 @@ This repo aims to solve that problem.
 # Example
 A quick example can be found in `example_isotonicPMML.py` which uses the example (http://scikit-learn.org/stable/auto_examples/plot_isotonic_regression.html#example-plot-isotonic-regression-py) from sklearn to create an isotonic regression that can be converted to PMML.
 
+## Production use.
+This repo solves the sklearn to pmml problem for isotonic regression, but does not solve the engine to run the code in, (say) a production environment.
+An open license C++ implementation for this problem can be found at the freepmml repo: https://github.com/freepmml/libpmml
