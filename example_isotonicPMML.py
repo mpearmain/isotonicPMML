@@ -15,7 +15,8 @@ ir = IsotonicRegression()
 y_ = ir.fit_transform(x, y)
 
 # Export to PMML.
-isotonic2pmml.topmml(isotonic = ir,
-                     datafield_name = 'x',
-                     targetfield_name = 'y',
-                     outputfile = 'test.pmml')
+isotonic2pmml.topmml(x,
+                     y_,
+                     datafield_name='x',
+                     targetfield_name='y',
+                     outputfile='test.pmml')
